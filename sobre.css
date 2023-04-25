@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 35px;
+}
+a{
+    border: 2px solid #ffffff;
+    color: #c89a03;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: hsl(0, 0%, 29%);
+    transition: 0.3s all;
+}
+h1{
+    max-width: 200;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    margin-top: 15px;
+}
+h2{
+    font-size: 27px;
+    color: #c89a03;
+}
+#paragrafos{
+    padding: 16px;
+    margin-top: 15px;
+}
+#inicio{
+    font-size: 20px;
+}
+#objetivo{
+    padding: 20px;
+    margin: 20px;
+}
+.obj{
+    font-size: 20px;
+}
+#missao{
+    padding: 20px;
+    margin: 20px;
+}
+#responsabilidade{
+    padding: 20px;
+    margin: 20px;
+}
+#exelencia{
+    padding: 20px;
+    margin: 20px;
+}
+#inovacao{
+    padding: 20px;
+    margin: 20px;
+}
+#integridade{
+    padding: 20px;
+    margin: 20px;
+}
+#resultado{
+    padding: 20px;
+    margin: 20px;
+}
+span{
+    color: #c89a03;
+}
